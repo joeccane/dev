@@ -1,0 +1,76 @@
+[
+    {
+        "label": "QWidget",
+        "importPath": "PyQt6.QtWidgets",
+        "description": "PyQt6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt6.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QApplication",
+        "importPath": "PyQt6.QtWidgets",
+        "description": "PyQt6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt6.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QPushButton",
+        "importPath": "PyQt6.QtWidgets",
+        "description": "PyQt6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt6.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QLabel",
+        "importPath": "PyQt6.QtWidgets",
+        "description": "PyQt6.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt6.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "PyQt6.QtCore",
+        "description": "PyQt6.QtCore",
+        "isExtraImport": true,
+        "detail": "PyQt6.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "PyQt6.QtGui",
+        "description": "PyQt6.QtGui",
+        "isExtraImport": true,
+        "detail": "PyQt6.QtGui",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleNamespace",
+        "importPath": "types",
+        "description": "types",
+        "isExtraImport": true,
+        "detail": "types",
+        "documentation": {}
+    },
+    {
+        "label": "ZxColors",
+        "kind": 6,
+        "importPath": "hello",
+        "description": "hello",
+        "peekOfCode": "class ZxColors:\n    def __init__(self):\n        self.primary = QColor(54, 54, 54)\n        self.secondary = QColor(48, 48, 48)\n        self.highlight = QColor(100, 100, 100)\n        self.shadow = QColor(38, 38, 38)\n        self.info = QColor(144, 144, 144)\n        self.warning = QColor(219, 172, 61)\n        self.danger = QColor(205, 92, 92)\n        self.success = QColor(124, 205, 124)",
+        "detail": "hello",
+        "documentation": {}
+    },
+    {
+        "label": "ZxToolbar",
+        "kind": 6,
+        "importPath": "hello",
+        "description": "hello",
+        "peekOfCode": "class ZxToolbar(QWidget):\n    def __init__(self, parent=None):\n        super().__init__(parent)\n        self.mainLayout = QHBoxLayout()\n        self.setLayout(self.mainLayout)\n        self.mainLayout.setSpacing(8)\n        self.mainLayout.setContentsMargins(0,0,0,0)\n    def addWidget(self, widget):\n        self.mainLayout.addWidget(widget)\n        widget.installEventFilter(self)",
+        "detail": "hello",
+        "documentation": {}
+    }
+]
